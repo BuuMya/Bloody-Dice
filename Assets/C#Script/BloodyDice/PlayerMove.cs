@@ -62,8 +62,8 @@ public class PlayerMove : MonoBehaviour
 
         // 方向キーの入力値とカメラの向きから、移動方向を決定
         Vector3 moveForward = cameraForward * inputVertical + Camera.main.transform.right * inputHorizontal;
+
         
-            
             // 移動方向にスピードを掛ける。ジャンプや落下がある場合は、別途Y軸方向の速度ベクトルを足す。
             rb.velocity = moveForward * moveSpeed + new Vector3(0, rb.velocity.y, 0);
        
