@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A9B7057F-3CAA-E082-0478-F3D95896ECAB}</ProjectGuid>
+    <ProjectGuid>{933FCD63-0A3F-620E-9696-522C74C9C991}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -69,7 +69,6 @@
     <Compile Include="Assets\C#Script\BloodyDice\Playertext.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\EnemyTextController.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\Floor.cs" />
-    <Compile Include="Assets\Effekseer\Example\EfkBasic.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\PlayerMove.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\Enemy_00.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\MapObject.cs" />
@@ -78,22 +77,12 @@
     <Compile Include="Assets\C#Script\Test\EDir.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\Effekseer\Materials\GrabDepthShader.shader" />
-     <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionPS.cginc" />
      <None Include="Assets\Effekseer\Plugins\x86\EffekseerUnity.dll" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdLitUnlitPS.cginc" />
-     <None Include="Assets\Effekseer\Materials\Texture2DArrayBlitShader.shader" />
-     <None Include="Assets\Effekseer\Materials\EffekseerShaderDistortionCommonPS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdCommonPS.cginc" />
-     <None Include="Assets\Effekseer\Materials\Texture2DBlitShader.shader" />
      <None Include="Assets\Effekseer\Plugins\x86_64\EffekseerUnity.dll" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderCommon.cginc" />
-     <None Include="Assets\Effekseer\Materials\EffekseerShaderSoftParticlePS.cginc" />
-     <None Include="Assets\Effekseer\Materials\EffekseerShaderVS.cginc" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdVS.cginc" />
-     <None Include="Assets\Effekseer\Materials\FakeShader.shader" />
-     <None Include="Assets\Effekseer\Materials\EffekseerShaderLitUnlitPS.cginc" />
-     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
      <None Include="Assets\Effekseer\Materials\EffekseerFixedShader.shader" />
      <None Include="Assets\Effekseer\Materials\EffekseerShaderAdDistortionPS.cginc" />
     <Reference Include="UnityEngine">
@@ -699,23 +688,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Effekseer.URP.csproj">
-      <Project>{5F5598BF-0E17-3C65-D542-FE2D9F04DEC9}</Project>
+      <Project>{7AB931D4-3D42-8D78-2AB9-B24595BCB198}</Project>
       <Name>Effekseer.URP</Name>
     </ProjectReference>
     <ProjectReference Include="Effekseer.PostProcessing.csproj">
-      <Project>{117285D9-15BB-DEB8-3251-A716F2DD88A1}</Project>
+      <Project>{4E829B75-A85A-00FB-B7F7-BDD286F96A51}</Project>
       <Name>Effekseer.PostProcessing</Name>
     </ProjectReference>
     <ProjectReference Include="Effekseer.HDRP.csproj">
-      <Project>{8B6983BC-4ECE-9934-4148-4093F951DB20}</Project>
+      <Project>{D655B49F-3356-7DD5-A0E8-EFEA7ABA9C1E}</Project>
       <Name>Effekseer.HDRP</Name>
     </ProjectReference>
-    <ProjectReference Include="EffekseerEditor.csproj">
-      <Project>{A15A18E2-EEC3-E12A-CBE0-BC2C3F930E69}</Project>
-      <Name>EffekseerEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="Effekseer.csproj">
-      <Project>{FEDFF54C-9710-A9C4-A62C-2E4A24DFE8DC}</Project>
+      <Project>{184BD1A5-C288-7E19-19A3-9D8F88920F56}</Project>
       <Name>Effekseer</Name>
     </ProjectReference>
   </ItemGroup>

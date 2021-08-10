@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F5598BF-0E17-3C65-D542-FE2D9F04DEC9}</ProjectGuid>
+    <ProjectGuid>{7AB931D4-3D42-8D78-2AB9-B24595BCB198}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Effekseer.URP</AssemblyName>
@@ -287,6 +287,9 @@
     </Reference>
     <Reference Include="UnityEditor.WebGL.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
@@ -657,7 +660,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Effekseer.csproj">
-      <Project>{FEDFF54C-9710-A9C4-A62C-2E4A24DFE8DC}</Project>
+      <Project>{184BD1A5-C288-7E19-19A3-9D8F88920F56}</Project>
       <Name>Effekseer</Name>
     </ProjectReference>
   </ItemGroup>

@@ -83,7 +83,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8331247895389871890}
-  m_Text: "[\u6226\u95D8]\nHP-46"
+  m_Text: "[\u7D99\u7D9A\u56DE\u5FA9]\nHP+2"
   m_OffsetZ: 0
   m_CharacterSize: 0.03
   m_LineSpacing: 1
@@ -96,7 +96,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 4278255360
 --- !u!114 &8550720822761539463
 MonoBehaviour:
   m_ObjectHideFlags: 0
