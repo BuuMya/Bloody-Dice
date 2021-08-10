@@ -69,6 +69,7 @@
     <Compile Include="Assets\C#Script\BloodyDice\Playertext.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\EnemyTextController.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\Floor.cs" />
+    <Compile Include="Assets\Effekseer\Example\EfkBasic.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\PlayerMove.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\Enemy_00.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\MapObject.cs" />

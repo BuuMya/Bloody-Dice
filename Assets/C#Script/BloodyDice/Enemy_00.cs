@@ -22,7 +22,7 @@ public class Enemy_00 : MonoBehaviour
             pl.DamageORHealing(-power);
             pl.EventDisp("[í“¬]\nHP-" + power.ToString(), Color.red);
             Debug.Log(name + "F@ÚG");
-            if (pl.GetPlayerPalam().ChordNum >power)
+            if (pl.GetPlayerPalam().ChordNum >=power)
             {
                 pl.Eating(power.ToString());
                 pl.AddMP(10);

@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{184BD1A5-C288-7E19-19A3-9D8F88920F56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -76,7 +75,7 @@
     <Compile Include="Assets\Effekseer\Scripts\EffekseerPlayableBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Effekseer\Scripts\Effekseer.asmdef" />
+     <None Include="Assets\Effekseer\Scripts\Effekseer.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
