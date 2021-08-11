@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public GameObject ExplosionEffect;
 
     public GameObject text;
-
+    public GameObject GameManager;
 
     public Effekseer.EffekseerEmitter m_emitter;
     public Effekseer.EffekseerEmitter j_emitter;
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
     {
         m_plpalam.Hunger++;
         m_emitter.Play();
-        
+        //GameManager.GetComponent<ItemManager>().GetItem(ItemType.bottle,2);
         //Vector3 m_vec = transform.position;
         //m_vec.z += 1;
         GetComponent<PlayerMove>().SpeedUp();
@@ -141,6 +141,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        GameManager = GameObject.Find("GameManager");
         m_emitter = EffectPlayer.GetComponent<Effekseer.EffekseerEmitter>();
         j_emitter = JumpEffect.GetComponent<Effekseer.EffekseerEmitter>();
         e_emitter = ExplosionEffect.GetComponent<Effekseer.EffekseerEmitter>();

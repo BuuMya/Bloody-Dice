@@ -18,6 +18,8 @@ public class Game : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
+        //DontDestroyOnLoad(this);
+
         
     }
 
@@ -34,6 +36,7 @@ public class Game : MonoBehaviour
             {
 
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                localtimer = 0;
             }
 
        }

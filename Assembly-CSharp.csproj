@@ -76,6 +76,8 @@
     <Compile Include="Assets\C#Script\BloodyDice\CameraMove.cs" />
     <Compile Include="Assets\C#Script\BloodyDice\MapGenaration.cs" />
     <Compile Include="Assets\C#Script\Test\EDir.cs" />
+    <Compile Include="Assets\C#Script\BloodyDice\SaveDataManager.cs" />
+    <Compile Include="Assets\C#Script\BloodyDice\ItemManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Effekseer\Plugins\x86\EffekseerUnity.dll" />

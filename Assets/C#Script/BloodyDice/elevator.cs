@@ -67,7 +67,7 @@ public class elevator : MonoBehaviour
             {
                 IsMove = false;
                 m_animator.SetInteger("elevatorState", 1);
-                //Invoke("Change", 10.0f);
+                Invoke("Change", 10.0f);
             }
             speed *= -1.0f;
         }

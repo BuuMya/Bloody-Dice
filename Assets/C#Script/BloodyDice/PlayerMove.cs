@@ -34,12 +34,12 @@ public class PlayerMove : MonoBehaviour
     }
     public void Resetspeed()
     {
-        moveSpeed /= 1.5f;
+        moveSpeed /= 1.2f;
     }
     public void SpeedUp()
     {
         speedupflag = true;
-        moveSpeed *= 1.5f;
+        moveSpeed *= 1.2f;
     }
     void Update()
     {
